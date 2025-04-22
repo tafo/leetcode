@@ -23,7 +23,7 @@ var convert = function (s, numRows) {
       }
     }
   }
-  return result.join();
+  return result.join("");
 };
 
 console.log(convert("PAYPALISHIRING", 3));
